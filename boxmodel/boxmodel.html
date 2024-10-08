@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 21 - Boxmodel</title>
+    <meta name="description" content="Aula Box model" />
+    <meta name="author" content="Thiago Duarte Lisboa" />
+    <meta
+      name="keywords"
+      content="html, css, javascript, designer, web designer, developer, front end"
+    />
+
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* More specific font */
+        font-weight: normal; /* Use normal instead of bold for body text */
+        line-height: 1.5; /* Improved readability */
+        padding: 20px; /* Add padding for body */
+        background-color: #f9f9f9; /* Light background for contrast */
+      }
+
+      p {
+        background-color: #c0bcbc;
+        margin-top: 20px;
+        padding: 10px; /* Added padding for text */
+      }
+
+      h1 {
+        background-color: #a07c7c;
+        padding: 20px;
+        font-size: 2.5em; /* Responsive font size */
+        text-align: center;
+      }
+
+      h2 {
+        background-color: #37a951;
+        margin-top: 60px;
+        border-bottom: 5px solid green;
+        padding: 10px; /* Added padding for h2 */
+        font-size: 2em; /* Responsive font size */
+      }
+
+      .destaque {
+        background-color: #f52c09;
+      }
+
+      .size {
+        width: 50%;
+        height: 100px;
+      }
+
+      .padding {
+        padding: 30px;
+      }
+
+      .margin {
+        margin: 50px 0 25px 100px;
+      }
+
+      .border {
+        border-top: 10px solid green;
+      }
+
+      .border2 {
+        border: 10px solid orangered;
+        text-align: right;
+      }
+
+      .border3 {
+        border: 5px solid orange; /* Combined properties into one */
+      }
+
+      .outline {
+        padding: 10px;
+        outline: 5px solid #ff3d2f;
+        background-color: #e46a3ad8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="border2">Box model</h1>
+    <h2 class="outline">Width and Height</h2>
+
+    <p class="border3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at neque
+      iste similique incidunt illum dolore, officiis esse inventore, cumque
+      culpa non quae eius voluptatem. Harum in natus repellendus maiores!
+    </p>
+
+    <p class="destaque size">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <p class="size">Lorem ipsum dolor sit amet.</p>
+
+    <h2>Padding</h2>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at neque
+      iste similique incidunt illum dolore, officiis esse inventore, cumque
+      culpa non quae eius voluptatem. Harum in natus repellendus maiores!
+    </p>
+
+    <p class="destaque padding">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Margin</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at neque
+      iste similique incidunt illum dolore, officiis esse inventore, cumque
+      culpa non quae eius voluptatem. Harum in natus repellendus maiores!
+    </p>
+
+    <p class="destaque margin">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Border</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at neque
+      iste similique incidunt illum dolore, officiis esse inventore, cumque
+      culpa non quae eius voluptatem. Harum in natus repellendus maiores!
+    </p>
+
+    <p class="destaque border">Lorem ipsum dolor sit amet.</p>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="destaque border2">Lorem ipsum dolor sit amet</p>
+
+    <h2>Outline</h2>
+
+    <p class="outline">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at neque
+      iste similique incidunt illum dolore, officiis esse inventore, cumque
+      culpa non quae eius voluptatem. Harum in natus repellendus maiores!
+    </p>
+
+    <p class="destaque">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque">Lorem ipsum dolor sit amet.</p>
+
+    <h2>Inline</h2>
+  </body>
+</html>

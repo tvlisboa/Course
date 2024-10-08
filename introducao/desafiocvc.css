@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  color: black;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.h2-secondary {
+  color: black;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.h3-secondary {
+  color: black;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h3 {
+  color: black;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+p {
+  color: black;
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+  background-color: lightblue;
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+
+ul {
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-variant: small-caps;
+}

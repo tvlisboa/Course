@@ -1,0 +1,40 @@
+body {
+  font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px; /* Added padding for better spacing */
+  color: #000000;
+  background-color: #ccc;
+}
+
+.caracteristicas {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section {
+  text-align: left;
+  font-size: 16px;
+}
+
+.funcao {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  background-color: #acafd4;
+  color: #061761;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: left;
+  color: #061761;
+  background-color: #b6b6b6;
+  border-bottom: 5px solid #061761; /* Defined color */
+  padding: 15px;
+}
